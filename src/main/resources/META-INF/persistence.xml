@@ -1,0 +1,10 @@
+<persistence>
+    <persistence-unit name="ordersPU">
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost/orders"/>
+            <property name="hibernate.connection.username" value="student"/>
+            <property name="hibernate.connection.password" value="admin"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
